@@ -29,10 +29,6 @@ Route::get('test2', [App\Http\Controllers\TestController::class,"show8"]);
 Route::get('test', [App\Http\Controllers\PostController::class,"show"]);
 Route::get('test/{id}', [App\Http\Controllers\PostController::class,"show1"]);
 Route::get('posts/{id}', [App\Http\Controllers\PostController::class,"showAll"]);
-
-
-
-
 Route::get('produkt/{id}',[App\Http\Controllers\ProduktController::class,"showProduct"]);
 
 ?>
