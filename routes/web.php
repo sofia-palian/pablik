@@ -52,4 +52,5 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/test/index',[App\Http\Controllers\UserController::class,'index'] );
+Route::get('/product',[App\Http\Controllers\ProductController::class,'ok'] );
 
