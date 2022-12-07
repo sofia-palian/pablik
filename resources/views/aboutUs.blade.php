@@ -1,8 +1,8 @@
 @extends("layouts.app")
 @section("content")
-<section>
+<section class="abuotUs">
     <div class="container">
-        <h2> О нас </h2> 
+        <h2><b> О нас </b></h2> 
         <div class="d-flex align-items-center justify-content-around">
             <img src="/public/img/Group 1.svg">
             <div class="d-flex text-center flex-column py-5" >
@@ -10,8 +10,8 @@
                 <h5>"Комиксы – искусство. Только забавнее."</h5>
             </div>
         </div>
+        <h2><b>Новинки компании</b></h2>
         <div class="d-flex flex-column align-items-center">
-            <h2> Новинки компании</h2>
             <div id="carouselExampleIndicators" class="carousel slide w-50 h-50 d-flex justify-content-center py-4" data-bs-ride="five">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

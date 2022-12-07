@@ -9,6 +9,6 @@ class ProductController extends Controller
     public function ok()
         {
             $code=\App\Models\product::all();
-            return view('test',['code'=>$code]);
+            return view('aboutUs',['code'=>$code]);
         }
 }
