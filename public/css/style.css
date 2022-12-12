@@ -1,14 +1,31 @@
-#wrapepr{
+#wrapepr {
   width: 1000px;
   margin: 30px auto;
   border: 1px solid black;
 }
 
-#header{
+#header {
   height: 200px;
   border: 1px solid black;
 }
-#footer{
+
+#footer {
   height: 200px;
   border: 1px solid black;
+}
+
+.contact {
+  background: #d4d4d4;
+}
+
+.motto {
+  background: #85a5edcc;
+  border: solid 3px #c4c8c8;
+  border-radius: 20px;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }

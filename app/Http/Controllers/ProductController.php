@@ -11,4 +11,8 @@ class ProductController extends Controller
             $code=\App\Models\product::all();
             return view('aboutUs',['code'=>$code]);
         }
+    public function produkt()
+    {   $comik=\App\Models\product::all();
+        return view('product',['comik'=>$comik]);
+    }
 }

@@ -2,15 +2,15 @@
 @section("content")
 <section class="abuotUs">
     <div class="container">
-        <h2><b> О нас </b></h2> 
+        <h2 class="m-5"><b> О нас </b></h2> 
         <div class="d-flex align-items-center justify-content-around">
-            <img src="/public/img/Group 1.svg">
-            <div class="d-flex text-center flex-column py-5" >
-                <h4 class="m-0"><b>Comics are art. But funnier.</b></h4>
+            <img src="/public/img/logo.svg">
+            <div class="d-flex text-center flex-column p-4 motto" >
+                <h4 class="m-0 "><b>Comics are art. But funnier.</b></h4>
                 <h5>"Комиксы – искусство. Только забавнее."</h5>
             </div>
         </div>
-        <h2><b>Новинки компании</b></h2>
+        <h2 class="m-5"><b>Новинки компании</b></h2>
         <div class="d-flex flex-column align-items-center">
             <div id="carouselExampleIndicators" class="carousel slide w-50 h-50 d-flex justify-content-center py-4" data-bs-ride="five">
                 <div class="carousel-indicators">
