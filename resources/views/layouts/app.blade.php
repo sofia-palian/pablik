@@ -21,7 +21,7 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
+                <a class="navbar-brand" href="{{ url('http://yzhjftk-m1.wsr.ru/aboutUs') }}">
                     <img src="/public/img/logo.svg">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -34,7 +34,7 @@
 
                     </ul>
                     <div class="d-flex justify-content-around w-100">
-                        <a href="http://yzhjftk-m1.wsr.ru/product" class="text-black text-decoration-none"> О нас</a>
+                        <a href="http://yzhjftk-m1.wsr.ru/aboutUs" class="text-black text-decoration-none"> О нас</a>
                         <a href="http://yzhjftk-m1.wsr.ru/catalog" class="text-black text-decoration-none">Каталог</a>
                         <a href="http://yzhjftk-m1.wsr.ru/findUs" class="text-black text-decoration-none">Где нас найти?</a>
                     </div>
@@ -104,7 +104,7 @@
                 </div>
                 <div class="d-flex justify-content-around col-lg-3 align-items-center" >
                     <div class="d-flex justify-content-center w-100 flex-column align-items-center">
-                        <a href="http://yzhjftk-m1.wsr.ru/product" class="text-black text-decoration-none p-2"> О нас</a>
+                        <a href="http://yzhjftk-m1.wsr.ru/aboutUs" class="text-black text-decoration-none p-2"> О нас</a>
                         <a href="http://yzhjftk-m1.wsr.ru/catalog" class="text-black text-decoration-none p-2">Каталог</a>
                         <a href="http://yzhjftk-m1.wsr.ru/findUs" class="text-black text-decoration-none p-2">Где нас найти?</a>
                     </div>

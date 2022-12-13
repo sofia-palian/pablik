@@ -27,7 +27,7 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/test/index',[App\Http\Controllers\UserController::class,'index'] );
-Route::get('/product',[App\Http\Controllers\ProductController::class,'ok'] );
+Route::get('/aboutUs',[App\Http\Controllers\ProductController::class,'ok'] );
 Route::get('/findUs',[App\Http\Controllers\FindUsController::class,'where'] );
 Route::get('/catalog',[App\Http\Controllers\ProductController::class,'produkt'] );
 
