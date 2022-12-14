@@ -29,3 +29,12 @@ footer {
   bottom: 0;
   width: 100%;
 }
+.img{
+  width: 250px;
+  height: 300px;
+}
+.but{
+  background: #85a5edcc;
+  border-radius: 20px;
+  
+}

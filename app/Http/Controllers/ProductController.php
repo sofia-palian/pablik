@@ -15,4 +15,8 @@ class ProductController extends Controller
     {   $comik=\App\Models\product::all();
         return view('product',['comik'=>$comik]);
     }
+    public function tov($id)
+    {   $comik=\App\Models\product::where("id",$id)-> get();
+        return view('tov',['comik'=>$comik]);
+    }
 }

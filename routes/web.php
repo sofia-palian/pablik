@@ -30,4 +30,6 @@ Route::get('/test/index',[App\Http\Controllers\UserController::class,'index'] );
 Route::get('/aboutUs',[App\Http\Controllers\ProductController::class,'ok'] );
 Route::get('/findUs',[App\Http\Controllers\FindUsController::class,'where'] );
 Route::get('/catalog',[App\Http\Controllers\ProductController::class,'produkt'] );
+Route::get('/tov/{id}',[App\Http\Controllers\ProductController::class,'tov'] );
+
 

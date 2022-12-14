@@ -81,6 +81,7 @@
             @yield('content')
             @yield('where')
             @yield('product')
+            @yield('tovar')
         </main>
         <footer>
             <div class="d-flex justify-content-between ">
