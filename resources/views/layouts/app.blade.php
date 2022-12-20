@@ -85,7 +85,7 @@
         </main>
         <footer>
             <div class="d-flex justify-content-between ">
-                <div class="col-lg-3 d-flex justify-content-center align-items-center">
+                <div class="col-lg-3 d-flex justify-content-center ">
                     <img src="/public/img/logo.svg">
                 </div>
                 <div class="d-flex justify-content-around col-lg-6 align-items-center">

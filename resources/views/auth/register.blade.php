@@ -104,8 +104,8 @@
                         </div>
 
                         <div class="row mb-3">
-                            <div class="col-md-6 text-center ">
-                                <p>Соглашаюсь на регистрацию</p>
+                            <div class="col-md-6 d-flex justify-content-around align-items-center">
+                                <p class="p-0 m-0">Соглашаюсь на регистрацию</p>
                                 <input type="checkbox" required autocomplete="new-password">
                             </div>
                         </div>
